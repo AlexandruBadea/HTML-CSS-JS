@@ -1,0 +1,44 @@
+body {
+    background:#fff;
+    transition:all .8s ease;
+}
+body.nightMode {
+    background:#141E28;
+}
+#button {
+    margin-left:50%;
+    background:rgb(0, 15, 27);
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    transform:translate(-50%,-50%);
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    transition:all .9s ease;
+}
+
+#button:hover {
+    background:rgb(5, 112, 173);
+}
+
+.nightMode #button {
+    background:#d7eaff;
+    color:rgb(0, 15, 27);
+}
+
+.nightMode h1{
+    color:#fff;
+}
+
+.nightMode .description{
+    color:#fff;
+}
+
+.nightMode .contact{
+    color:#fff;
+}
